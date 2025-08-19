@@ -23,6 +23,21 @@ public class CurrencyCalculator {
         return result.setScale(DECIMAL_PRECISION, RoundingMode.HALF_UP).doubleValue();
     }
 
+    public static double calculateInverseConversion(double amount, double exchangeRate) {
+        if (amount < 0) {
+            throw new IllegalArgumentException("La cantidad no puede ser negativa");
+        }
+        if (exchangeRate <= 0) {
+            throw new IllegalArgumentException("La tasa de cambio debe ser positiva");
+        }
+
+        BigDecimal amountDecimal = BigDecimal.valueOf(amount);
+        BigDecimal rateDecimal = BigDecimal.valueOf(exchangeRate);
+        BigDecimal result = amountDecimal.divide(rateDecimal, DECIMAL_PRECISION, RoundingMode.HALF_UP);
+
+        return result.doubleValue();
+    }
+
     public static String formatAmount(double amount) {
         return String.format("%.2f", amount);
     }
