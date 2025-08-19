@@ -19,4 +19,15 @@ public class ApiConfig {
         }
          System.out.println("API key loaded successfully");
     }
+    public static String getLatestRatesUrl(String baseCurrency) {
+        return BASE_URL + API_KEY + "/latest/" + baseCurrency;
+    }
+
+    public static String getPairConversionUrl(String fromCurrency, String toCurrency) {
+        return BASE_URL + API_KEY + "/pair/" + fromCurrency + "/" + toCurrency;
+    }
+
+    public static String getPairConversionWithAmountUrl(String fromCurrency, String toCurrency, double amount) {
+        return BASE_URL + API_KEY + "/pair/" + fromCurrency + "/" + toCurrency + "/" + amount;
+    }
 }
