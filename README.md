@@ -5,8 +5,6 @@
 ![Java](https://img.shields.io/badge/Java-24%2B-orange?style=for-the-badge&logo=java)
 ![API](https://img.shields.io/badge/API-ExchangeRate--API-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
 **Un conversor de monedas profesional con 18 monedas soportadas, historial avanzado y análisis estadísticos**
 
 [🚀 Características](#-características) • [📦 Instalación](#-instalación) • [🎯 Uso](#-uso) • [📊 Diagramas](#-diagramas) • [🛠️ Desarrollo](#️-desarrollo)
@@ -22,7 +20,6 @@
 - [📦 Instalación y Configuración](#-instalación-y-configuración)
 - [🎯 Guía de Uso](#-guía-de-uso)
 - [💱 Monedas Soportadas](#-monedas-soportadas)
-- [📊 Diagramas y Documentación](#-diagramas-y-documentación)
 - [🛠️ Desarrollo y Contribución](#️-desarrollo-y-contribución)
 - [📚 Documentación Técnica](#-documentación-técnica)
 - [🏆 Créditos](#-créditos)
@@ -312,7 +309,7 @@ Para habilitar logs detallados, descomenta la línea en `ApiConfig.java`:
 - **🧮 BigDecimal** - Precisión matemática
 
 ### 📖 **Recursos de Aprendizaje**
-- [Documentación Java HttpClient](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html)
+- [Documentación Java HttpClient](https://docs.oracle.com/en/java/javase/24/docs/api/java.net.http/java/net/http/HttpClient.html)
 - [Gson User Guide](https://github.com/google/gson/blob/master/UserGuide.md)
 - [ExchangeRate-API Documentation](https://www.exchangerate-api.com/docs)
 - [ISO 4217 Currency Codes](https://en.wikipedia.org/wiki/ISO_4217)
@@ -327,31 +324,3 @@ Si este proyecto te fue útil, ⭐ **dale una estrella** en GitHub
 **Hecho con ❤️ y ☕ para la comunidad de desarrolladores Java**
 
 </div>
-
----
-
-## 📄 **Licencia**
-
-```
-MIT License
-
-Copyright (c) 2024 CoinFluxCraft
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
