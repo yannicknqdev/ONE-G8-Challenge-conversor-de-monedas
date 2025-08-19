@@ -1,4 +1,4 @@
-package main.java.com.alura.coinfluxcraft.model;
+package main.java.com.alura.coinfluxcraft.models;
 
 public enum SupportedCurrency {
     // Monedas originales latinoamericanas
